@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins';
   overflow: hidden;
   margin: 0;
-  background: url(./images/Lamborghini-Countach.jpg) center center/cover no-repeat;
+  background: url(./images/Lamborghini-Countach.webp) center center/cover no-repeat;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   height: 100vh;
@@ -21,8 +21,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: background 0.5s ease;
-  transition: background 0.5s ease;
+  -webkit-transition: background-image 0.5s ease;
+  transition: background-image 0.5s ease;
 }
 
 .container {
@@ -60,9 +60,9 @@ body {
 }
 
 .slide.active {
-  -webkit-box-flex: 10;
-      -ms-flex: 10;
-          flex: 10;
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
 }
 
 .slide.active h3 {
