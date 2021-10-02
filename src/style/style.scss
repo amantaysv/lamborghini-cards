@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins';
   overflow: hidden;
   margin: 0;
-  background: url(./images/Lamborghini-Countach.webp) center center / cover no-repeat;
+  background: url(../images/Lamborghini-Countach.webp) center center / cover no-repeat;
   backdrop-filter: blur(5px);
   height: 100vh;
   display: flex;
@@ -47,6 +47,7 @@ body {
 
   &.active {
     flex: 7;
+
     h3 {
       opacity: 1;
       transition: opacity 0.3s ease-in 0.4s;
